@@ -6,7 +6,7 @@ deploy:
   api_key:
     secure: $HEROKU_KEY
   app:
-    master: copiaDelRepoDiGian
+    master: copia-gian
 install:
   - "npm install --no-optional"
 before_script:
